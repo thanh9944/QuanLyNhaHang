@@ -301,8 +301,7 @@ public class ShowProductActivity extends AppCompatActivity {
 
     private void postGioHang(List<GioHang> gioHangList) {
         userLogin.setGio_hang(gioHangList);
-        GioHangDao.getInstance().insertGioHang(userLogin,
-                userLogin.getGio_hang(),
+        GioHangDao.getInstance().insertGioHang(userLogin, userLogin.getGio_hang(),
                 new IAfterInsertObject() {
                     @Override
                     public void onSuccess(Object obj) {

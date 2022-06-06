@@ -15,7 +15,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:title="Tài khoản"
-        app:titleTextColor="@color/white"/>
+        app:titleTextColor="@color/white" />
 
     <ImageView
         android:id="@+id/img_edit_profile"

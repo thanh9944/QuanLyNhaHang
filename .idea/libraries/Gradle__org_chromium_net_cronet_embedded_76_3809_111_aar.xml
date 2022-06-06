@@ -4,6 +4,9 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24f4acd42d94a5b3fe2a2bf3d4df799b/jetified-cronet-embedded-76.3809.111/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24f4acd42d94a5b3fe2a2bf3d4df799b/jetified-cronet-embedded-76.3809.111/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/24f4acd42d94a5b3fe2a2bf3d4df799b/jetified-cronet-embedded-76.3809.111/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/04735ee6332d7c37f0efac81ff4218d3/jetified-cronet-embedded-76.3809.111/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/04735ee6332d7c37f0efac81ff4218d3/jetified-cronet-embedded-76.3809.111/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/04735ee6332d7c37f0efac81ff4218d3/jetified-cronet-embedded-76.3809.111/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

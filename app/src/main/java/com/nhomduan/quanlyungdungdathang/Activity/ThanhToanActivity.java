@@ -221,44 +221,6 @@ public class ThanhToanActivity extends AppCompatActivity {
     private void setUpDoiThoiGian() {
         tvDoiThoiGianGH.setOnClickListener(v -> {
             Toast.makeText(getApplicationContext(), "Chưa hỗ trợ", Toast.LENGTH_SHORT).show();
-//            BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(ThanhToanActivity.this);
-//            bottomSheetDialog.setContentView(R.layout.layout_get_time);
-//
-//            Button btnGetTime;
-//            Button btnGetDay;
-//            TextView tvTime;
-//            TextView tvDay;
-//            Button btnCancel;
-//            Button btnSave;
-//
-//            btnGetTime = bottomSheetDialog.findViewById(R.id.btnGetTime);
-//            btnGetDay = bottomSheetDialog.findViewById(R.id.btnGetDay);
-//            tvTime = bottomSheetDialog.findViewById(R.id.tvTime);
-//            tvDay = bottomSheetDialog.findViewById(R.id.tvDay);
-//            btnCancel = bottomSheetDialog.findViewById(R.id.btnCancel);
-//            btnSave = bottomSheetDialog.findViewById(R.id.btnSave);
-//
-//            btnGetTime.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//                    Calendar calendar = Calendar.getInstance();
-//                    TimePickerDialog timePickerDialog = new TimePickerDialog(ThanhToanActivity.this,
-//                            android.R.style.Theme_Holo_Dialog_MinWidth,
-//                            new TimePickerDialog.OnTimeSetListener() {
-//                                @Override
-//                                public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
-//                                    calendar.setTime(hourOfDay, minute);
-//                                }
-//                            }, calendar.get(Calendar.HOUR_OF_DAY), calendar.get(Calendar.MINUTE), true);
-//                }
-//            });
-//
-//            btnGetDay.setOnClickListener(new View.OnClickListener() {
-//                @Override
-//                public void onClick(View v) {
-//
-//                }
-//            });
 
         });
     }
@@ -353,7 +315,6 @@ public class ThanhToanActivity extends AppCompatActivity {
                             tvSoSanPham.setText(tongSoSP + " sản phẩm");
                             tvTien.setText(OverUtils.currencyFormat.format(soTienThanhToan));
                             tvTongTien.setText(OverUtils.currencyFormat.format(soTienThanhToan + soTienVanChuyen));
-
                             // thời gian giao hàng bằng thời gian hiện tại + thời gian chế biến + thời gian ship (30 phút)
                             long thoiGianGiaoHangDuKien = System.currentTimeMillis() + TimeUnit.MINUTES.toMillis(thoiGianGiaoHang) + TimeUnit.MINUTES.toMillis(30);
                             String thoiGianGiaoHang = OverUtils.getSimpleDateFormat().format(new Date(thoiGianGiaoHangDuKien));
